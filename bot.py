@@ -363,7 +363,7 @@ def join_audio(class_name,start_time,end_time,date_string):
     discord_webhook.send_msg(class_name=class_name,status="joined",start_time=current_start_time,end_time=end_time,t_date=date_string) 
 
     
-    class_running_time = datetime.strptime(end_time,tmp) - datetime.strptime(current_time,tmp)
+    class_running_time = datetime.strptime(end_time,tmp) - datetime.strptime(current_start_time,tmp)
     
     # Sleep till class end time
     print("Waiting till the class ends")
