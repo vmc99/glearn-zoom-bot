@@ -10,5 +10,5 @@ webdriver-manager==3.2.2
 Discord-Webhooks==1.0.4
 opencv-python==4.4.0.46
 imutils==0.5.4
-Pillow==8.0.1
+Pillow
 python-dotenv==0.15.0
