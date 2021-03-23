@@ -500,7 +500,9 @@ def join_class(class_name,start_time,end_time):
                 driver2 = webdriver.Chrome(ChromeDriverManager().install(),options=opt2,service_log_path='NUL')
                 driver2.get(zoom_link)
                 WebDriverWait(driver2,10000).until(EC.visibility_of_element_located((By.TAG_NAME,'body')))
+                time.sleep(1);
                 driver2.minimize_window()
+                time.sleep(1);
                 driver2.maximize_window()
 
 
