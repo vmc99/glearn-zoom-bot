@@ -22,7 +22,7 @@ This bot attends online zoom classes according to the timetable by fetching clas
 
 
 
-- Enter your G-learn credentials and Discord webhook url in **keys.env** file.
+- Enter your G-learn credentials and [Discord webhook url](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) in **keys.env** file.
 ```
  USER_ID=
  PASSWORD=
